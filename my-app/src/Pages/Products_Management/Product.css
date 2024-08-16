@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    text-transform: capitalize;
+}
+
+/* .table {
+    width: 100%;
+} */
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+}
+
+.table-header h4 {
+    color: #00457c;
+    font-weight: 600;
+}
+.link-p ,.add-new ,button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.link-p {
+    text-decoration:none ;
+    margin: 5px;
+    background-color: #0079c1;
+    
+}
+.tdTableOne .link-p:nth-child(1){
+    background-color: #0079c1;
+    /* background-color: #00f800; */
+
+}
+
+.tdTableOne .link-p:nth-child(2){
+    background-color: #0079c1;
+}
+
+.tdTableOne .link-p:nth-child(3){
+    background-color: #f80000;
+}
+
+.add-new {
+    
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #0079c1;
+}
+
+.table-section {
+    height: 650px;
+    overflow: auto;
+  
+}
+
+.fixed {
+    width: 100%;
+    table-layout: fixed;
+    min-width: 1000px;
+    border-collapse: collapse;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f6f9fc;
+    color: #8493a5;
+    font-size: 15px;
+}
+
+.tdTableOne,th {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 20px ;
+    word-break: break-all;
+    text-align: center;
+}
+tr:hover .tdTableOne {
+    color: #0079c1;
+    cursor: pointer;
+    background-color: #f6f9fc;
+}
+::placeholder {
+    color:#0079c1 ;
+}
+
+.disabled-row button {
+    pointer-events: none; 
+    opacity: 0.3;
+  }
+
+/* ////////////////////add-pro */
+
+/* Product.css */
+
+/* Modal container */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+ 
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    /* color: black; */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+/* ProductDetails.css */
+
